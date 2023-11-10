@@ -1,0 +1,49 @@
+/* selector{
+    propiedad : valor;
+    propiedad : valor;
+
+} */
+
+body{
+
+    /* Cambiar color de fondo */
+    background-color: #FFD1DA;
+    /* color de texto */
+    color: #57375D;
+    /* Cambiar fuente de texto, se dan varias opciones para los navegadores */
+    /*font-family: Verdana, Geneva, Tahoma, sans-serif;*/
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+h1{
+    color:blueviolet;
+    font-family: 'Satisfy', sans-serif;
+}
+
+h3{
+    color: #EA1179;
+}
+
+a{
+    color:#A076F9;
+}
+
+/*Al referenciar clase, usamos un punto (.) */
+
+img{
+    /*width: ancho del objeto // height: alto del objeto*/
+    width:200 px;
+}
+
+.danzaweb{
+    width:1000px;
+}
+
+
+.bongo-cat{
+    width: 500px;
+
+    /* Border radius */
+    border-radius: 100px;
+    box-shadow: 1px 0px 50px rgb(255,0,0);
+}
